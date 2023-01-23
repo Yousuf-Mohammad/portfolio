@@ -1,0 +1,85 @@
+.project {
+    width: 90%;
+    height: 50vh;
+    margin: 40px 5px;
+    border: 2px solid grey;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px whitesmoke;
+}
+
+.project-browser {
+    height: 60px;
+    background-color: rgb(30, 29, 29);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+}
+
+.project-circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: white;
+}
+
+.project-img {
+    width: 100%;
+    transition: all 5s ease;
+}
+
+.project:hover .project-img {
+    transform: translateY(-70%);
+}
+
+.onscreenbtn {
+    color: white;
+    background-color: rgb(91, 112, 182);
+    border-radius: 7px;
+    padding: 4px;
+
+
+    border: 2px solid gray;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.onscreenbtn:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 8px 8px 25px grey;
+}
+
+@media screen and (max-width:480px) {
+    .project {
+        width: 80%;
+        height: 40vh;
+    }
+
+    .project-img:hover {
+        transform: translateY(-70%);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .project {
+        width: 50%;
+        height: 40vh;
+    }
+
+    .project-img:hover {
+        transform: translateY(-70%);
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .project {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .project-img:hover {
+        transform: translateY(-50%);
+    }
+}

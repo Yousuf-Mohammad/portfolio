@@ -1,0 +1,120 @@
+.contact{
+    height: 50vh;
+    position: relative;
+  
+}
+
+.contact-wrapper{
+    padding: 50px;
+    display: flex;
+    
+}
+.contact-left{
+    flex: 1;
+}
+.contact-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.contact-title{
+    font-size: 60px;
+    width: 80%;
+    font-weight: bolder;
+}
+.contact-info-item{
+    display:flex ;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300;
+    width: 70%;
+    
+}
+
+.contact-description{
+    font-size: 45px;
+    font-weight: 800;
+  
+}
+/* form{
+    margin-top: 20px;
+} */
+input{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+  
+
+   
+}
+textarea{
+    width: 100%;
+   
+    font-size: 20px;
+    
+}
+.button2{
+    width: 150px; 
+    background-color:rgb(91, 112, 182); 
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    border:2px solid darkgrey;
+    box-shadow: 5px 5px 10px grey;
+    margin-top: 40px;
+}
+.button2:hover{
+    background-color:white;
+    color: black;
+    box-shadow: 8px 8px 25px grey;
+ }
+.mail{
+    width: 100%;
+}
+.box{
+    box-shadow: 5px 5px 20px whitesmoke;
+    width: 50%;
+    padding: 40px;
+    border-radius: 10px;
+    margin-right: 170px;
+    background-color: white;
+}
+@media screen and (max-width:480px) {
+    .contact-wrapper{
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+    .contact-title{
+        font-size: 30px;
+    }
+    .contact-info-item{
+        margin: 20px 0px;
+        width: 100%;
+    }
+    .mail{
+        width: 100%;
+        background-color: black;
+    }
+    .button2{
+        margin-top: 10px;
+        width: 100px;
+    }
+    .button2:hover{
+        background-color:white;
+        color: black;
+        box-shadow: 8px 8px 25px grey;
+     }
+    .box{
+       color:black;
+        box-shadow: 5px 5px 10px grey;
+        width: 100%;
+        padding: 15px;
+        border-radius: 15px;
+        margin-bottom: 25px;
+       
+    }
+
+}

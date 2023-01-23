@@ -1,0 +1,60 @@
+.image {
+    margin-top: 60px;
+    width: 100%;
+}
+
+.skills {
+    text-align: start;
+    justify-content: center;
+    font-size: large;
+    font-weight: 600;
+
+
+
+}
+
+ul {
+    font-weight: 600;
+}
+
+.aboutme {
+    font-weight: 900;
+}
+
+.about {
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 10px;
+    padding: 40px;
+    background-color: white;
+
+
+
+}
+
+.aboutTotal {
+    margin-top: 280px;
+
+}
+
+b {
+    color: rgb(91, 112, 182);
+}
+
+@media screen and (max-width:480px) {
+    .about {
+        box-shadow: 5px 5px 10px grey;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        width: 80%;
+        margin-left: 40px;
+
+    }
+
+    .aboutTotal {
+        margin-top: 80px;
+
+    }
+
+}

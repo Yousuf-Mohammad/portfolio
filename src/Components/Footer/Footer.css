@@ -1,0 +1,55 @@
+.footer-container {
+    background-color: black;
+    box-shadow: 2px 2px 10px whitesmoke;
+    margin-top: 150px;
+}
+
+.list-item {
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icon-list {
+    margin: 10px;
+
+}
+
+.fa-facebook {
+    font-size: 40px;
+
+
+}
+
+.fa-github {
+    font-size: 40px;
+    color: purple;
+
+}
+
+.fa-linkedin {
+    font-size: 40px;
+    color: #0072b1;
+
+}
+
+.address {
+    color: white;
+    text-shadow: 1px 1px 5px white;
+}
+
+
+
+.social-icon {
+    text-align: center;
+
+}
+
+.rightWritting {
+    color: white;
+    text-shadow: 1px 1px 5px white;
+    text-align: center;
+
+}
