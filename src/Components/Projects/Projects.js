@@ -11,6 +11,7 @@ import "swiper/css/navigation";
 
 import Project from '../Project/Project';
 import './Projects.css'
+import { Container } from 'react-bootstrap';
 
 const Projects = () => {
     const [projects, setProjects] = useState([])
@@ -29,12 +30,13 @@ const Projects = () => {
 
             </div>
             <div className="projects-list">
+
                 <Swiper className="swiper"
 
 
-                    slidesPerView={2}
-                    spaceBetween={0}
-                    slidesPerGroup={1}
+                    slidesPerView={3}
+                    spaceBetween={10}
+                    slidesPerGroup={2}
 
                     pagination={{
                         type: "fraction"
@@ -50,25 +52,27 @@ const Projects = () => {
                         },
                         "@0.75": {
                             slidesPerView: 2,
-                            spaceBetween: 20,
+                            spaceBetween: 10,
                         },
                         "@1.00": {
                             slidesPerView: 2,
-                            spaceBetween: 40,
+                            spaceBetween: 10,
                         },
                         "@1.50": {
                             slidesPerView: 3,
-                            spaceBetween: 50,
+                            spaceBetween: 10,
                         },
                     }}
                     navigation={true}
                     modules={[Autoplay, Pagination, Navigation]}
 
                 >
-                    {projects.map(project => <SwiperSlide> <Project
+
+                    {projects.map(project => <SwiperSlide className='p-5 swipe'> <Project
 
                         data={project} /></SwiperSlide>
                     )}
+
                 </Swiper>
             </div>
         </div>

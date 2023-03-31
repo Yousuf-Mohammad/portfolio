@@ -1,32 +1,54 @@
 [
     {
         "key": 1,
-        "img": "https://i.ibb.co/h9J9k1N/diChakra.jpg",
+        "name": "diChakra-BicycleHub",
+        "img": "https://i.ibb.co/bzKsMcv/Web-capture-18-3-2023-02124-dichakra-store-web-app.jpg",
+        "logos": [
+            "https://i.ibb.co/1TkYpvH/reactjs.png",
+            "https://i.ibb.co/1bv6pzv/Bootstrp.png",
+            "https://i.ibb.co/7gnQNFz/firebase.png",
+            "https://i.ibb.co/pdFv7Jw/nodeJS.png",
+            "https://i.ibb.co/jrXBfby/mongodb.png"
+        ],
         "link": "https://dichakra-store.web.app/",
         "Git": "https://github.com/Yousuf-Mohammad/diChakra-store"
     },
     {
         "key": 2,
+        "name": "Limit-Design-LTD",
         "img": "https://i.ibb.co/sVgqP1Z/Web-capture-19-1-2023-235816-limit-design-ltd-netlify-app.jpg",
+        "logos": [
+            "https://i.ibb.co/1TkYpvH/reactjs.png",
+            "https://i.ibb.co/1bv6pzv/Bootstrp.png",
+            "https://i.ibb.co/Syrzrcr/pngwing-com-2.png",
+            "https://i.ibb.co/7gnQNFz/firebase.png"
+        ],
         "link": "https://limit-design-ltd.netlify.app/",
         "Git": "https://github.com/Mahir-Ahmed-250/Project-Limit-Designer-Ltd/tree/yousuf"
     },
     {
         "key": 4,
-        "img": "https://i.ibb.co/zJ42pvs/honda.jpg",
-        "link": "https://gunda-chalay-honda.netlify.app/",
-        "Git": "https://github.com/Yousuf-Mohammad/mediCare"
+        "name": "RUBIK'S WEAR",
+        "img": "https://i.ibb.co/3y0DjkS/Web-capture-18-3-2023-0410-rubikswear-netlify-app.jpg",
+        "logos": [
+            "https://i.ibb.co/1TkYpvH/reactjs.png",
+            "https://i.ibb.co/z5xQ5g7/Sass.png",
+            "https://i.ibb.co/Kh5NLWF/MUI.png",
+            "https://i.ibb.co/8D4y4qy/strapi.png",
+            "https://i.ibb.co/ZfFnpg4/redux.png"
+        ],
+        "link": "https://rubikswear.netlify.app/",
+        "Git": "https://github.com/Yousuf-Mohammad/Dukkan"
     },
     {
         "key": 5,
+        "name": "SpiderVerse",
         "img": "https://i.ibb.co/VLWjVgG/milesmorales.jpg",
         "link": "https://milesmoraales.netlify.app/",
+        "logos": [
+            "https://i.ibb.co/wpDk560/pngwing-com-4.png",
+            "https://i.ibb.co/Syrzrcr/pngwing-com-2.png"
+        ],
         "Git": "https://github.com/Yousuf-Mohammad/Miles_Morales"
-    },
-    {
-        "key": 6,
-        "img": "https://i.ibb.co/5YwF5Tm/Web-capture-22-1-2023-796-yeasins-dairy-netlify-app.jpg",
-        "link": "https://yeasins-diary.netlify.app/",
-        "Git": "https://github.com/Yousuf-Mohammad/yeasin-sBlog"
     }
 ]

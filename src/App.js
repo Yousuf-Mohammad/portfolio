@@ -46,9 +46,9 @@ function App() {
             },
             modes: {
               bubble: {
-                distance: 400,
+                distance: 300,
                 duration: 2,
-                opacity: 0.8,
+                opacity: 0.7,
                 size: 40,
               },
               push: {
@@ -66,7 +66,7 @@ function App() {
             },
             links: {
               color: "#ffffff",
-              distance: 450,
+              distance: 250,
               enable: true,
               opacity: 0.1,
               width: .05,
@@ -85,7 +85,7 @@ function App() {
             number: {
               density: {
                 enable: true,
-                value_area: 3000,
+                value_area: 2000,
               },
               value: 80,
             },
@@ -103,7 +103,7 @@ function App() {
           detectRetina: true,
         }}
       />
-
+      {/* 
       <AnimatedCursor
         innerSize={20}
         outerSize={80}
@@ -111,7 +111,7 @@ function App() {
         outerAlpha={0.7}
         innerScale={1}
         outerScale={3}
-      />
+      /> */}
       <Top></Top>
 
       <About></About>
